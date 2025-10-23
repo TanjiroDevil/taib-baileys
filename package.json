@@ -1,5 +1,5 @@
 {
-  "name": "@tanjirodev/baileys",
+  "name": "@taib/baileys",
   "version": "1.0.0",
   "description": "WhatsApp API",
   "keywords": [
@@ -12,9 +12,9 @@
     "automation",
     "multi-device"
   ],
-  "homepage": "https://github.com/TanjiroDevil/baileys",
+  "homepage": "https://github.com/TanjiroDevil/taib-baileys",
   "repository": {
-    "url": "git@github.com:TanjiroDevil/baileys.git"
+    "url": "git@github.com:TanjiroDevil/taib-baileys.git"
   },
   "license": "MIT",
   "author": "TanjiroDev",

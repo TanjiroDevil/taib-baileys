@@ -23,7 +23,7 @@
 ```json
 {
   "dependencies": {
-    "@taib/baileys": "github: TanjiroDevil/taib-baileys"
+    "@taib/baileys": "github:TanjiroDevil/taib-baileys"
   }
 }
 ```

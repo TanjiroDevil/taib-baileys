@@ -1,6 +1,6 @@
-# <div align='center'>TanjiroDev Baileys</div>
+# <div align='center'>Taib Baileys</div>
 
-[الموقع الرسمي لـ Tanjiro Dev](https://tanjirodev.online)
+[الموقع الرسمي لـ Taib ...](https://tanjirodev.online)
 
 
 <div align='center'>Enhanced WhatsApp Web Api library by TanjiroDev Team</div>
@@ -23,7 +23,7 @@
 ```json
 {
   "dependencies": {
-    "@tanjirodev/baileys": "github: TanjiroDevil/baileys"
+    "@taib/baileys": "github: TanjiroDevil/taib-baileys"
   }
 }
 ```
@@ -39,13 +39,13 @@ Here is an example you can use: [example.ts](Example/example.ts) or here is a tu
 
 Use the stable version:
 ```bash
-npm install @tanjirodev/baileys@github:TanjiroDevil/baileys
+npm install @taib/baileys@github:TanjiroDevil/taib-baileys
 ```
 
 
 Then import your code using:
 ```javascript
-const { default: makeWASocket } = require("@tanjirodev/baileys")
+const { default: makeWASocket } = require("@taib/baileys")
 ```
 ## Connecting Account
 
@@ -57,7 +57,7 @@ WhatsApp provides a multi-device API that allows Baileys to be authenticated as 
 > You can customize browser name if you connect with **QR-CODE**, with `Browser` constant, we have some browsers config, **see [here](https://baileys.whiskeysockets.io/types/BrowsersMap.html)**
 
 ```javascript
-const { default: makeWASocket } = require("@tanjirodev/baileys")
+const { default: makeWASocket } = require("@taib/baileys")
 
 
 const sock = makeWASocket({
@@ -78,7 +78,7 @@ If the connection is successful, you will see a QR code printed on your terminal
 The phone number can't have `+` or `()` or `-`, only numbers, you must provide country code
 
 ```javascript
-const { default: makeWASocket } = require("@tanjirodev/baileys")
+const { default: makeWASocket } = require("@taib/baileys")
 
 const sock = makeWASocket({
     // can provide additional config here
@@ -160,8 +160,8 @@ You obviously don't want to keep scanning the QR code every time you want to con
 
 So, you can load the credentials to log back in:
 ```javascript
-const makeWASocket = require("@tanjirodev/baileys").default;
-const { useMultiFileAuthState } = require("@tanjirodev/baileys");
+const makeWASocket = require("@taib/baileys").default;
+const { useMultiFileAuthState } = require("@taib/baileys");
 
 const { state, saveCreds } = await useMultiFileAuthState('auth_info_baileys')
 
@@ -201,8 +201,8 @@ sock.ev.on('messages.upsert', ({ messages }) => {
 > This example includes basic auth storage too
 
 ```javascript
-const makeWASocket = require("@tanjirodev/baileys").default;
-const { DisconnectReason, useMultiFileAuthState } = require("@tanjirodev/baileys");
+const makeWASocket = require("@taib/baileys").default;
+const { DisconnectReason, useMultiFileAuthState } = require("@taib/baileys");
 const Boom = require('@hapi/boom');
 
 async function connectToWhatsApp () {
@@ -248,13 +248,16 @@ connectToWhatsApp()
 
 
 
-## TanjiroDev Team
+## By TanjiroDev
 
 ```JavaScript
 const team = {
   "Tanjiro": {
     "whatsapp": "https://wa.me/967772350066",
     "github": "https://github.com/TanjiroDevil"
+  },
+  "Taib": {
+    "whatsapp": "https://wa.me/967738512629"
   }
 };
 ```
